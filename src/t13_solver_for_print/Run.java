@@ -1,4 +1,4 @@
-package t13_interrupted;
+package t13_solver_for_print;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -9,11 +9,11 @@ public class Run {
 	public static void main(String[] args) {
 		
 		/*
-		 * 需要抛出异常配合interrupted来实现中断线程
+		 * for下面语句不再执行，解决方法是在MyThread类的run方法中抛出一个中断异常
 		 */
 		try {
 			//控制台日志输出到文本，可查看文件
-			System.setOut(new PrintStream(new FileOutputStream("./t13_interrupted/output.txt"))); 
+			System.setOut(new PrintStream(new FileOutputStream("./output.txt"))); 
 			MyThread thread = new MyThread();
 			thread.start();
 			Thread.sleep(1000);

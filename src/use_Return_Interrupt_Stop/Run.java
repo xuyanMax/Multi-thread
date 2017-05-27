@@ -1,4 +1,4 @@
-package t13_interrupted;
+package use_Return_Interrupt_Stop;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -7,26 +7,23 @@ import java.io.PrintStream;
 public class Run {
 
 	public static void main(String[] args) {
-		
-		/*
-		 * 需要抛出异常配合interrupted来实现中断线程
-		 */
+	
 		try {
-			//控制台日志输出到文本，可查看文件
-			System.setOut(new PrintStream(new FileOutputStream("./t13_interrupted/output.txt"))); 
+			System.setOut(new PrintStream(new FileOutputStream("./output.txt"))); 
 			MyThread thread = new MyThread();
+			
 			thread.start();
-			Thread.sleep(1000);
-			thread.interrupt();
+			Thread.sleep(500); //main睡眠，切换到myThread,run方法执行0.5秒后，
+			
+			thread.interrupt();//中断myThread
+			
 		} catch (InterruptedException e) {
-			System.out.println("main catch");
 			e.printStackTrace();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		System.out.println("end!");
 		
-
+		
 	}
 
 }

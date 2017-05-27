@@ -1,11 +1,17 @@
-/.DS_Store
 /currentThreadExt/
 /getId/
 /randomThread/
+/runStopMethod/
 /sameNum/
+/stopThrowLock/
+/suspend_resume_test/
 /t11_interrup/
 /t12_interrupted_clr/
+/t13_forprint/
 /t13_interrupted/
+/t13_solver_for_print/
+/t14_interrupted_slp/
+/t14_slp_interrupted/
 /t1_Thread/
 /t2_Runnable/
 /t3_Var_thread_safety/
@@ -15,4 +21,6 @@
 /t7_isAlive/
 /t8_sleep/
 /testThread/
+/useStopMethodThreadTest/
+/use_Return_Interrupt_Stop/
 /z/
