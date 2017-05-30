@@ -10,10 +10,11 @@ public class Run {
 		
 		/*
 		 * 需要抛出异常配合interrupted来实现中断线程
+		 * 否则虽然中断线程，但是还会执行
 		 */
 		try {
 			//控制台日志输出到文本，可查看文件
-			System.setOut(new PrintStream(new FileOutputStream("./t13_interrupted/output.txt"))); 
+			System.setOut(new PrintStream(new FileOutputStream("./output.txt")));
 			MyThread thread = new MyThread();
 			thread.start();
 			Thread.sleep(1000);

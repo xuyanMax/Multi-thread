@@ -16,6 +16,7 @@ public class MyThread extends Thread{
 			}
 			System.out.println("i="+ (i+1));
 		}
+		System.out.println("虽然线程中断，但是for下面的语句仍会执行");
 		
 	}
 }
