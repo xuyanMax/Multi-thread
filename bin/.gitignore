@@ -24,3 +24,5 @@
 /useStopMethodThreadTest/
 /use_Return_Interrupt_Stop/
 /z/
+
+*.class
