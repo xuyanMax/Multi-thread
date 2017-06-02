@@ -3,6 +3,8 @@ package t4_var_t_s_share;
 public class Run {
 
 	public static void main(String[] args) {
+
+
 //		// myThread 中的run()方法交由a\b\c\d\e线程进行调用
 		MyThread myThread = new MyThread();
 		Thread a = new Thread(myThread, "A");
