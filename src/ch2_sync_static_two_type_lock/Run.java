@@ -5,8 +5,6 @@ package ch2_sync_static_two_type_lock;
  */
 public class Run {
     /*
-    静态同步synchronized方法月synchronized(class) 代码块
-    关键字synchronized可以用在static静态方法上，这时候，（是对该类的所有对象锁定），而不同于synchronized关键字加到static静态方法上（对对象上锁）。
     *验证synchronized关键字对静态方法和非静态方法上锁性质不同（因为不同，所以会导致异步）
     *
     * 输出结果

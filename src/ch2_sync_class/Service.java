@@ -22,14 +22,15 @@ public class Service {
 
         }
     }
+    //synchronized
      public static void printB(){
-        synchronized (Service.class) {
+//        synchronized (Service.class) {
             System.out.println("线程名称为： "+ Thread.currentThread().getName()+"，在 "+System.currentTimeMillis()+
                     " 进入同步块");
 
             System.out.println("线程名称为： "+ Thread.currentThread().getName()+"，在 "+System.currentTimeMillis()+
                     " 离开同步块");
-        }
+//        }
 
 
     }
