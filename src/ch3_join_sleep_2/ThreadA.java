@@ -16,6 +16,7 @@ public class ThreadA extends Thread {
         try {
             synchronized (b) {
                 b.start();
+                System.out.println("IN threadA waits until threadB completes");
                 b.join();//说明join方法 释放b对象的锁, b先执行
 
                 for(int i=0 ; i<Integer.MAX_VALUE; i++) {

@@ -1,4 +1,6 @@
-package ch3_ThreadLocal_22;
+package ch3_ThreadLocal_33;
+
+import java.util.Date;
 
 /**
  * Created by xu on 2017/6/12.
@@ -6,6 +8,6 @@ package ch3_ThreadLocal_22;
 public class ThreadLocalExt extends ThreadLocal {
     @Override
     protected Object initialValue() {
-        return "我是默认值 第一次get不再是null";
+        return new Date().getTime();
     }
 }

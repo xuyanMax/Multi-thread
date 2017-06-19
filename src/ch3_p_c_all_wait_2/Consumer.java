@@ -11,10 +11,9 @@ public class Consumer {
     }
     public void getValue() {
 
-
         try {
             synchronized (lock) {
-                if (ValueObject.value.equals("")) {
+                while (ValueObject.value.equals("")) {
                     System.out.println("消费者"+Thread.currentThread().getName()+" 等待******");
                     lock.wait();
                 }
