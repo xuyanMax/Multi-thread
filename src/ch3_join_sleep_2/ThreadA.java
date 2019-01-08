@@ -17,10 +17,10 @@ public class ThreadA extends Thread {
             synchronized (b) {
                 b.start();
                 System.out.println("IN threadA waits until threadB completes");
-                b.join();//说明join方法 释放b对象的锁, b先执行
+                b.join();// a线程释放b对象的锁, b先执行完再执行A，因为释放了b的锁，因此线程C也可以调用线程b的方法
 
-                for(int i=0 ; i<Integer.MAX_VALUE; i++) {
-                    System.out.println("i="+ (i+1));
+                for(int i=0 ; i<100; i++) {
+                    System.out.print("i="+ (i+1)+" ");
                 }
 
             }

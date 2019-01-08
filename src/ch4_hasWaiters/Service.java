@@ -11,8 +11,8 @@ public class Service {
     public Condition condition = lock.newCondition();
 
     public void waitMethod() {
-        try{
-            System.out.println(Thread.currentThread().getName()+"获取锁");//非临界区
+        try {
+            System.out.println(Thread.currentThread().getName() + "获取锁");//非临界区
             lock.lock();//临界区
 
             condition.await();
@@ -23,14 +23,14 @@ public class Service {
         }
 
     }
+
     public void notifyMethod() {
-        try{
+        try {
             lock.lock();
-            System.out.println("没有线程正在等待 condition？"+lock.hasWaiters(condition) + ", 线程多少？"
+            System.out.println("没有线程正在等待 condition？" + lock.hasWaiters(condition) + ", 线程多少？"
                     + lock.getWaitQueueLength(condition));
-            condition.signal();
-        }
-        finally {
+            condition.signalAll();
+        } finally {
             lock.unlock();
         }
 

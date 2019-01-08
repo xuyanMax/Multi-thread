@@ -8,6 +8,7 @@ public class MyThread extends Thread {
     public void run() {
         try {
             int secondValue = (int) (Math.random() * 5);
+//            System.out.printf("%f", secondValue);
             System.out.println(secondValue);
             Thread.sleep(secondValue);
         } catch (InterruptedException e) {

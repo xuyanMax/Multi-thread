@@ -15,19 +15,19 @@ public class Test {
      输入jstack pid即可
 
      */
-     public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
-         DeadThread t1 = new DeadThread();
+        DeadThread t1 = new DeadThread();
 
-         t1.setFlag("a");
-         Thread thread1 = new Thread(t1);
-         thread1.start();
+        t1.setFlag("a");
+        Thread thread1 = new Thread(t1);
+        thread1.start();
 
-         Thread.sleep(100);
+        Thread.sleep(100);
 
-         t1.setFlag("b");
-         Thread thread2 = new Thread(t1);
-         thread2.start();
+        t1.setFlag("b");
+        Thread thread2 = new Thread(t1);
+        thread2.start();
 
-     }
+    }
 }

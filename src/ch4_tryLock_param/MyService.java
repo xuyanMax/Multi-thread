@@ -13,10 +13,10 @@ public class MyService {
     public void waitMethod() {
         try {
             if (lock.tryLock(3, TimeUnit.SECONDS)) {
-                System.out.println( Thread.currentThread().getName() + "获得锁, 时间="+System.currentTimeMillis());
-                Thread.sleep(3); // 改变这个值，尝试
+                System.out.println(Thread.currentThread().getName() + "获得锁, 时间=" + System.currentTimeMillis());
+                Thread.sleep(3000); // 改变这个值，尝试
             } else {
-                System.out.println( Thread.currentThread().getName() + "未或得锁");
+                System.out.println(Thread.currentThread().getName() + "未或得锁");
             }
         } catch (InterruptedException e) {
             e.printStackTrace();

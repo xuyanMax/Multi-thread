@@ -10,6 +10,7 @@ public class Subtract {
         super();
         this.lock = lock;
     }
+
     public void subtract() {
         try {
             synchronized (lock) {

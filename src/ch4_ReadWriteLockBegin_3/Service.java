@@ -7,21 +7,22 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  */
 public class Service {
     private ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
-    public void read () {
-        try{
+
+    public void read() {
+        try {
             lock.readLock().lock();
             System.out.println("获得ReadLock" + Thread.currentThread().getName() + ", "
-                                + System.currentTimeMillis());
+                    + System.currentTimeMillis());
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-
             lock.readLock().unlock();
         }
     }
-    public void write () {
-        try{
+
+    public void write() {
+        try {
             lock.writeLock().lock();
             System.out.println("获得WriteLock" + Thread.currentThread().getName() + ", "
                     + System.currentTimeMillis());
@@ -29,7 +30,6 @@ public class Service {
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-
             lock.writeLock().unlock();
         }
     }

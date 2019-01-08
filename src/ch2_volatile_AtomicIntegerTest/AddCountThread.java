@@ -11,6 +11,6 @@ public class AddCountThread extends Thread{
     @Override
     public void run() {
         for (int i=0; i<100; i++)
-            System.out.println("count="+count.incrementAndGet());
+            System.out.println(Thread.currentThread().getName()+" count="+count.incrementAndGet());
     }
 }

@@ -15,11 +15,11 @@ public class ThreadA extends Thread {
     public void run() {
         try {
             synchronized (b) {
-                System.out.println("begin A thread="+Thread.currentThread().getName() + ", "
-                +System.currentTimeMillis());
+                System.out.println("begin A thread=" + Thread.currentThread().getName() + ", "
+                        + System.currentTimeMillis());
                 Thread.sleep(1000);
-                System.out.println("end A thread="+Thread.currentThread().getName() + ", "
-                        +System.currentTimeMillis());
+                System.out.println("end A thread=" + Thread.currentThread().getName() + ", "
+                        + System.currentTimeMillis());
             }
         } catch (InterruptedException e) {
             e.printStackTrace();

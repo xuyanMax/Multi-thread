@@ -8,8 +8,8 @@ public class Service {
         try {
             synchronized (lock) {
                 System.out.println("开始等待");
-//              lock.wait();
-                Thread.sleep(1000); //变同步方法
+                lock.wait();
+//                Thread.sleep(1000); //变同步方法
 
                 System.out.println("结束等待");
             }

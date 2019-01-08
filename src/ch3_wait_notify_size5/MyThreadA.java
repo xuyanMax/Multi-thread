@@ -3,8 +3,8 @@ package ch3_wait_notify_size5;
 /**
  * Created by xu on 2017/6/4.
  */
-public class MyThreadA extends Thread{
-//    private MyList list;
+public class MyThreadA extends Thread {
+    //    private MyList list;
     private Object lock;
 
     public MyThreadA(Object o) {

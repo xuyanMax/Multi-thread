@@ -6,7 +6,7 @@ package ch3_waitReleaseLock;
 public class Test {
 
    /*
-   wait()会自动释放锁；然而notify()被执行后，不会释放锁。。
+   * wait()会自动释放锁；然而notify()被执行后，不会释放锁。。
    * 输出结果
    * 开始等待
    * 开始等待

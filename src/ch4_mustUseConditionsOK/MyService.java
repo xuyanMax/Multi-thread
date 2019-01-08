@@ -11,15 +11,15 @@ public class MyService {
     private Lock lock = new ReentrantLock();
 
     // more conditions
-    private Condition conditionA =lock.newCondition();
-    private Condition conditionB =lock.newCondition();
+    private Condition conditionA = lock.newCondition();
+    private Condition conditionB = lock.newCondition();
 
     public void awaitA() {
         try {
             lock.lock();
-            System.out.println("begin awaitA time = " + System.currentTimeMillis() + ", thread="+Thread.currentThread().getName());
+            System.out.println("begin awaitA time = " + System.currentTimeMillis() + ", thread=" + Thread.currentThread().getName());
             conditionA.await();
-            System.out.println("  end awaitA time = " + System.currentTimeMillis() + ", thread="+Thread.currentThread().getName());
+            System.out.println("  end awaitA time = " + System.currentTimeMillis() + ", thread=" + Thread.currentThread().getName());
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -27,12 +27,13 @@ public class MyService {
         }
 
     }
+
     public void awaitB() {
         try {
             lock.lock();
-            System.out.println("begin awaitB time = " + System.currentTimeMillis() + ", thread="+Thread.currentThread().getName());
+            System.out.println("begin awaitB time = " + System.currentTimeMillis() + ", thread=" + Thread.currentThread().getName());
             conditionB.await();
-            System.out.println("  end awaitB time = " + System.currentTimeMillis() + ", thread="+Thread.currentThread().getName());
+            System.out.println("  end awaitB time = " + System.currentTimeMillis() + ", thread=" + Thread.currentThread().getName());
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -42,24 +43,25 @@ public class MyService {
     }
 
     public void signalAll_A() {
-       try{
-           lock.lock();
-           System.out.println("singnalAll_A time = "+System.currentTimeMillis()+", thread="+Thread.currentThread().getName());
+        try {
+            lock.lock();
+            System.out.println("signalAll_A time = " + System.currentTimeMillis() + ", thread=" + Thread.currentThread().getName());
 
-           conditionA.signalAll();
-       } finally {
-           lock.unlock();
-       }
+            conditionA.signalAll();
+        } finally {
+            lock.unlock();
+        }
     }
-    public void signalAll_B() {
-      try {
-          lock.lock();
-          System.out.println("singnalAll_B time = "+System.currentTimeMillis()+", thread="+Thread.currentThread().getName());
 
-          conditionB.signalAll();
-      } finally {
-          lock.unlock();
-      }
+    public void signalAll_B() {
+        try {
+            lock.lock();
+            System.out.println("signalAll_B time = " + System.currentTimeMillis() + ", thread=" + Thread.currentThread().getName());
+
+            conditionB.signalAll();
+        } finally {
+            lock.unlock();
+        }
 
     }
 }

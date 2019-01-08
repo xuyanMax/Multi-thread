@@ -9,10 +9,8 @@ public class Test {
          try {
              MyThread thread = new MyThread();
              thread.start();
-
-             thread.join(2000);
-
-             Thread.sleep(2000);
+//             Thread.sleep(2000);
+             thread.join();//调用线程等待该线程完成后，在执行下面一句
 
              System.out.println("End time = " + System.currentTimeMillis());
          } catch (InterruptedException e) {

@@ -9,6 +9,7 @@ public class Run {
     * */
      public static void main(String[] args){
          PrintString psService = new PrintString();
+
          psService.printStringMethod();
 
          System.out.println("停止printStringMethod，stopThread="+Thread.currentThread().getName());

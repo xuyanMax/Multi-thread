@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class MyList {
     private static List<Integer> list = new ArrayList<>();
+
     public static void add() {
         list.add(1);
     }

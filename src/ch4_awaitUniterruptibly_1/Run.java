@@ -9,6 +9,8 @@ public class Run {
          MyThread myThread = new MyThread(service);
          myThread.start();
          Thread.sleep(3000);
+         System.out.println("asd");
          myThread.interrupted();
+         System.out.println("asdasd");
      }
 }

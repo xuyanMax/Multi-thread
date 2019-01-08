@@ -16,12 +16,12 @@ public class Service {
             // lock.lockInterruptibly() 替换lock.lock()
             lock.lockInterruptibly();
 //            lock.lock();
-            System.out.println("lock begin" + Thread.currentThread().getName()+System.currentTimeMillis());
+            System.out.println("lock begin " + Thread.currentThread().getName()+System.currentTimeMillis());
             for (int i=0; i<Integer.MAX_VALUE/10; i++) {
                 String newString = new String();
                 Math.random();
             }
-            System.out.println("lock end" + Thread.currentThread().getName() + System.currentTimeMillis());
+            System.out.println("lock end " + Thread.currentThread().getName() + System.currentTimeMillis());
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

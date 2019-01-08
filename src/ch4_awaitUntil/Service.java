@@ -12,7 +12,7 @@ public class Service {
     private Condition condition = lock.newCondition();
 
     public void waitMethod() {
-        try{
+        try {
             Calendar calendarRef = Calendar.getInstance();
             calendarRef.add(Calendar.SECOND, 10);
 
@@ -29,8 +29,9 @@ public class Service {
             lock.unlock();
         }
     }
+
     public void notifyMethod() {
-        try{
+        try {
             lock.lock();
             Calendar calendarRef = Calendar.getInstance();
             calendarRef.add(Calendar.SECOND, 10);

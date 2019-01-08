@@ -6,20 +6,20 @@ package ch2_volatile_synchronized_alike;
 public class Service {
 
     //可以使用volatile
-    private Boolean isContinueRun = true;
+    private volatile Boolean isContinueRun = true;
+
     public void startMethod() {
         String anyString = new String();
 
         while (isContinueRun == true) {
-            synchronized (isContinueRun) {// or synchronzied(anyString)
-
-            }
+//            synchronized (isContinueRun) {// 或者 synchronized(anyString) 去掉volatile
+//            }
         }
         System.out.println("停下来了！");
 
     }
 
-    public void stopMethod(){
+    public void stopMethod() {
         isContinueRun = false;
     }
 

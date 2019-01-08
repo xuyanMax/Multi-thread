@@ -14,21 +14,20 @@ public class MyThreadB extends Thread {
     @Override
     public void run() {
 
-                try {
+        try {
 
-                    while (true) {
-                        // busy waiting
-                        if (list.size() != 5) {
+            while (true) {
+                // busy waiting
+                if (list.size() == 5) {
 
-                            System.out.println("list大小等于5了，线程=" + Thread.currentThread().getName() + "要退出了！");
+                    System.out.println("list大小等于5了，线程=" + Thread.currentThread().getName() + "要退出了！");
 
-                            throw new InterruptedException();
-                        }
-                    }
+                    throw new InterruptedException();
                 }
-                    catch(InterruptedException e){
-                        e.printStackTrace();
-                }
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 }

@@ -9,6 +9,7 @@ public class MyThread extends Thread {
         try {
             System.out.println("begin time = "+System.currentTimeMillis());
             Thread.sleep(5000);
+            System.out.println("end time = "+System.currentTimeMillis());
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

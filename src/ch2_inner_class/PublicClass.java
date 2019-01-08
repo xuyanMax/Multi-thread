@@ -7,10 +7,11 @@ public class PublicClass {
     private String username;
     private String password;
 
-    class PrivateClass{
+    class PrivateClass {
         private String age;
         private String address;
-        public String getAge(){
+
+        public String getAge() {
             return age;
         }
 
@@ -25,11 +26,13 @@ public class PublicClass {
         public void setAddress(String address) {
             this.address = address;
         }
+
         public void printPublicProperty() {
-            System.out.println(username +" " + password);
+            System.out.println(username + " " + password);
         }
     }
-    static class StaticClass{
+
+    static class StaticClass {
         private String age;
         private String Address;
 

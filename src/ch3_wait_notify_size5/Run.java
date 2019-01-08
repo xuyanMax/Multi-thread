@@ -5,7 +5,7 @@ package ch3_wait_notify_size5;
  * Created by xu on 2017/6/4.
  */
 public class Run {
-     public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
          /*
          等待／通知机制的实现
          日志消息"等待结束"在最后输出，说明notify()方法执行后不立刻释放锁。
@@ -21,15 +21,15 @@ public class Run {
          临界区：设计共享数据部分的代码块
          * */
 
-             Object obj = new Object();
-             MyThreadA a = new MyThreadA(obj);
-             MyThreadB b = new MyThreadB(obj);
-             a.setName("A");
-             b.setName("B");
-             b.start();
-             Thread.sleep(5000);
+        Object obj = new Object();
+        MyThreadA a = new MyThreadA(obj);
+        MyThreadB b = new MyThreadB(obj);
+        a.setName("A");
+        b.setName("B");
+        b.start();
+        Thread.sleep(5000);
 
-             a.start();
+        a.start();
 
-     }
+    }
 }

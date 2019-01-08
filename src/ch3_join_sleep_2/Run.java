@@ -12,6 +12,7 @@ public class Run {
 
          a.start();
          ThreadC c = new ThreadC(b);
+//         a.join();等a执行完后再执行c
          c.start();
 
      }

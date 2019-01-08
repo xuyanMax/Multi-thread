@@ -5,12 +5,13 @@ package ch3_wait_notify_insert_test;
  */
 public class DBTools {
     volatile private boolean prevIsA = false;
+
     synchronized public void backupA() {
         try {
             while (prevIsA == true)
                 this.wait();
 
-            for (int i=0; i<5; i++)
+            for (int i = 0; i < 5; i++)
                 System.out.println("AAAAAAA");
             prevIsA = true;
             notifyAll();
@@ -26,7 +27,7 @@ public class DBTools {
             while (prevIsA == false)
                 this.wait();
 
-            for (int i=0; i<5; i++)
+            for (int i = 0; i < 5; i++)
                 System.out.println("BBBBBBB");
             prevIsA = false;
             notifyAll();

@@ -14,11 +14,11 @@ public class Service {
     }
 
     public void serviceMethod() {
-        try{
+        try {
             lock.lock();
             System.out.println("公平锁情况：" + lock.isFair());
 
-        }finally {
+        } finally {
             lock.unlock();
         }
     }

@@ -6,7 +6,7 @@ package ch3_notifyHoldLock;
 public class Run {
     /*
     * notify不释放锁
-    * notify()方法所在的同步synchronzied代码块全部执行完后才释放锁！！
+    * notify()方法所在的同步synchronized代码块全部执行完后才释放锁！！
     *
     * */
      public static void main(String[] args){

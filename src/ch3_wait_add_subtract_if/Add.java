@@ -14,7 +14,7 @@ public class Add {
 
         synchronized (lock) {
             ValueObject.list.add("anything");
-            lock.notifyAll();// may cause problems will two waiting subtract threads are awake with only 1 item to be subtracted
+            lock.notifyAll();// may cause problems with two waiting subtract threads are awake with only 1 item to be subtracted
         }
     }
 

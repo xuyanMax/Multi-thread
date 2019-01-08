@@ -22,10 +22,12 @@ public class Service {
 /*
         } catch (InterruptedException e) {
             e.printStackTrace();
-      */} finally {
+      */
+        } finally {
             lock.unlock();
         }
     }
+
     public void signal() {
         //serr
         condition.signal();

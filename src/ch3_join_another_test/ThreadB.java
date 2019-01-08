@@ -9,11 +9,11 @@ public class ThreadB extends Thread {
     synchronized public void run() {
 
         try {
-                System.out.println("begin B thread="+Thread.currentThread().getName() + ", "
-                        +System.currentTimeMillis());
-                Thread.sleep(1000);
-                System.out.println("end B thread="+Thread.currentThread().getName() + ", "
-                        +System.currentTimeMillis());
+            System.out.println("begin B thread=" + Thread.currentThread().getName() + ", "
+                    + System.currentTimeMillis());
+            Thread.sleep(1000);
+            System.out.println("end B thread=" + Thread.currentThread().getName() + ", "
+                    + System.currentTimeMillis());
 
         } catch (InterruptedException e) {
             e.printStackTrace();

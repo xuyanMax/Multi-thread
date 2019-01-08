@@ -13,22 +13,24 @@ public class MyService {
     private boolean hasValue = false;
 
     public void set() {
-            try {
-                lock.lock();
-                while (hasValue == true) {
-                    System.out.println("有可能++++++++连续" + Thread.currentThread().getName());
-                    condition.await();
-                }
-                System.out.println("打印 **生产**");
-                hasValue = true;
-//                condition.signal();
-                condition.signalAll();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } finally {
-                lock.unlock();
+
+        try {
+            lock.lock();
+            while (hasValue == true) {
+                System.out.println("有可能++++++++连续" + Thread.currentThread().getName());
+                condition.await();
             }
+            System.out.println("打印 **生产**");
+            hasValue = true;
+//                condition.signal();
+            condition.signalAll();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
     }
+
     public void get() {
 
         try {

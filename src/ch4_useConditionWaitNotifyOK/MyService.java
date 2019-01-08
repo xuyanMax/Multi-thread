@@ -12,9 +12,9 @@ public class MyService {
     private Condition condition = lock.newCondition();
 
     public void await() {
+        lock.lock();
         try {
-            lock.lock();
-            System.out.println("await 开始时间="+System.currentTimeMillis());
+            System.out.println("await 开始时间=" + System.currentTimeMillis());
             // condition.await()前必须调用lock.lock()代表获得"同步监视器"
             condition.await();
         } catch (InterruptedException e) {
@@ -23,10 +23,11 @@ public class MyService {
             lock.unlock();
         }
     }
+
     public void signal() {
-        try{
-            lock.lock();
-            System.out.println("signal 开始时间="+System.currentTimeMillis());
+        lock.lock();
+        try {
+            System.out.println("signal 开始时间=" + System.currentTimeMillis());
             condition.signal();
         } finally {
             lock.unlock();

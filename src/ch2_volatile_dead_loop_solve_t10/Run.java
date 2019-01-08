@@ -22,7 +22,7 @@ public class Run {
     *
     * 3、volatile能保证数据的"可见性"，但不能保证"原子性"；而sync可以保证原子性，也可间接保证可见行，因为它会将私有内存和公共内存中的数据做同步。
     *
-    * 4、volatile解决的是变量在多个线程之间的可见行，而sync解决的是多个线程之间访问资源的同步性
+    * 4、volatile解决的是变量在多个线程之间的可见性，而sync解决的是多个线程之间访问资源的同步性
     *
     * */
      public static void main(String[] args){

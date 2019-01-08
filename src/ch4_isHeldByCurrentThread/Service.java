@@ -12,12 +12,13 @@ public class Service {
         super();
         this.lock = new ReentrantLock(isFair);
     }
+
     public void serviceMethod() {
-        try{
+        try {
             System.out.println(lock.isHeldByCurrentThread());
             lock.lock();
             System.out.println(lock.isHeldByCurrentThread());
-        }finally {
+        } finally {
             lock.unlock();
         }
     }

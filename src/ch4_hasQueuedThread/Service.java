@@ -11,10 +11,10 @@ public class Service {
     public Condition condition = lock.newCondition();
 
     public void waitMethod() {
-        try{
-            System.out.println(Thread.currentThread().getName()+"获取锁");//非临界区
+        try {
+            System.out.println(Thread.currentThread().getName() + "获取锁");//非临界区
             lock.lock();//临界区
-            System.out.println(Thread.currentThread().getName()+"获取锁1");
+            System.out.println(Thread.currentThread().getName() + "获取锁1");
             Thread.sleep(Integer.MAX_VALUE);
         } catch (InterruptedException e) {
             e.printStackTrace();

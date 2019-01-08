@@ -5,17 +5,19 @@ package ch2_volatile_dead_loop;
  */
 public class PrintString {
     private boolean isContinuedPrint = true;
+
     public boolean getIsContinuedPrint() {
         return isContinuedPrint;
     }
+
     public void setContinuedPrint(boolean isC) {
         this.isContinuedPrint = isC;
     }
+
     public void printStringMethod() {
         try {
-
             while (isContinuedPrint == true) {
-                System.out.println("run printStringMethod threadName="+Thread.currentThread().getName());
+                System.out.println("run printStringMethod threadName=" + Thread.currentThread().getName());
             }
             Thread.sleep(1000);
         } catch (InterruptedException e) {
