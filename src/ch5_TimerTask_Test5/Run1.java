@@ -13,14 +13,15 @@ public class Run1 {
     /*1、测试schedule方法任务不延时*/
     private static Timer timer = new Timer();
     private static int runCount = 0;
+
     static public class MyTask extends TimerTask {
         @Override
         public void run() {
 
             try {
-                System.out.println("1运行了，时间为："+ new Date());
-                Thread.sleep(1000);
-                System.out.println("   1 end 时间为："+ new Date());
+                System.out.println("1运行了  ，时间为：" + new Date());
+                Thread.sleep(2000);
+                System.out.println("   1 end 时间为：" + new Date());
                 runCount++;
                 if (runCount == 5)
                     timer.cancel();
@@ -29,17 +30,19 @@ public class Run1 {
                 e.printStackTrace();
             }
         }
+
         public static void main(String[] args) throws ParseException {
-            /*schedule(TimeTask, long)作用，当前的时间为参考时间，在此基础上延迟指定的时间后每隔一段时间"无限"执行此TimerTask任务*/
+            /*schedule(TimeTask, long)作用，当前的时间为参考时间，
+            在此基础上延迟指定的时间后每隔一段时间"无限"执行此TimerTask任务*/
             MyTask task = new MyTask();
-            String dateString1 = "2014-05-06 08:08:08";
+            String dateString1 = "2019-01-09 08:08:08";
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 
             Date dateRef1 = simpleDateFormat.parse(dateString1);
 
-            System.out.println("当前时间 " + new Date());
+            System.out.println("当前时间=" + new Date());
 
-            timer.schedule(task, dateRef1, 3000);//延迟5s，后每隔0.5无限执行片；
+            timer.schedule(task, dateRef1, 1000);//延迟2秒，每隔1s无限执行片；
         }
     }
 

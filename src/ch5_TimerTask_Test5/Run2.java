@@ -12,14 +12,15 @@ import java.util.TimerTask;
 public class Run2 {
     private static Timer timer = new Timer();
     private static int runCount = 0;
+
     static public class MyTask extends TimerTask {
         @Override
         public void run() {
 
             try {
-                System.out.println("1运行了，时间为："+ new Date());
+                System.out.println("1运行了，时间为：" + new Date());
                 Thread.sleep(3000);
-                System.out.println("   1 end 时间为："+ new Date());
+                System.out.println("   1 end 时间为：" + new Date());
                 runCount++;
                 if (runCount == 5)
                     timer.cancel();
@@ -28,6 +29,7 @@ public class Run2 {
                 e.printStackTrace();
             }
         }
+
         public static void main(String[] args) throws ParseException {
 
             MyTask task = new MyTask();
@@ -38,7 +40,7 @@ public class Run2 {
 
             System.out.println("当前时间 " + new Date());
 
-            timer.schedule(task, dateRef1, 2000);//延迟5s，后每隔0.5无限执行片；
+            timer.schedule(task, dateRef1, 2000);//延迟3s，后每隔2s无限执行片；
         }
     }
 }

@@ -11,18 +11,19 @@ import java.util.TimerTask;
  */
 public class Run5 {
     /*任务不追赶...schedule
-    * 以前的任务取消，不执行，从当下时间执行
-    * */
+     * 以前的任务取消，不执行，从当下时间执行
+     * */
     private static Timer timer = new Timer();
 
     static public class MyTask extends TimerTask {
         @Override
         public void run() {
 
-                System.out.println("1运行了，时间为："+ new Date());
-                System.out.println("   1 end 时间为："+ new Date());
+            System.out.println("1运行了，时间为：" + new Date());
+            System.out.println("   1 end 时间为：" + new Date());
 
         }
+
         public static void main(String[] args) throws ParseException {
             /*schedule(TimeTask, long)作用，当前的时间为参考时间，在此基础上延迟指定的时间后每隔一段时间"无限"执行此TimerTask任务*/
             MyTask task = new MyTask();

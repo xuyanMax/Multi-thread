@@ -38,7 +38,7 @@ public class Run3 {
 
             System.out.println("当前时间 " + new Date());
 
-            timer.scheduleAtFixedRate(task, dateRef1, 3000);
+            timer.scheduleAtFixedRate(task, 0, 4000);
         }
     }
 }

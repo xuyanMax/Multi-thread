@@ -11,26 +11,27 @@ import java.util.TimerTask;
  */
 public class Run_Timer_cancel {
     private static Timer timer = new Timer();
+
     static public class MyTaskA extends TimerTask {
         @Override
         public void run() {
-            System.out.println("A运行了！时间为："+ new Date());
+            System.out.println("A运行了！时间为：" + new Date());
             // Timer cance
-//            this.cancel();
+//            this.cancel();//从队列中清除自己
             timer.cancel();
         }
+
         static public class MyTaskB extends TimerTask {
             @Override
             public void run() {
                 System.out.println("B运行了！时间为：" + new Date());
-
             }
 
             public static void main(String[] args) throws ParseException {
 
-            /*schedule（TimerTask, Date, long)方法
-            * Timer- cancel()作用是将自任务队列中清空
-            * */
+                /*schedule（TimerTask, Date, long)方法
+                 * Timer- cancel()作用是将自任务队列中清空
+                 * */
                 MyTaskA taskA = new MyTaskA();
                 MyTaskA.MyTaskB taskB = new MyTaskA.MyTaskB();
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");

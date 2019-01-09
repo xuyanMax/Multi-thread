@@ -11,18 +11,19 @@ import java.util.TimerTask;
  */
 public class Run6 {
     /*任务追赶... scheduleAtFixedRate
-   * 以前的任务被迅速执行，无关period
-   * */
+     * 以前的任务被迅速执行，无关period
+     * */
     private static Timer timer = new Timer();
 
     static public class MyTask extends TimerTask {
         @Override
         public void run() {
 
-                System.out.println("1运行了，时间为："+ new Date());
-
-                System.out.println("   1 end 时间为："+ new Date());
+            System.out.println("1运行了，时间为：" + new Date());
+//
+//            System.out.println("   1 end 时间为：" + new Date());
         }
+
         public static void main(String[] args) throws ParseException {
             /*schedule(TimeTask, long)作用，当前的时间为参考时间，在此基础上延迟指定的时间后每隔一段时间"无限"执行此TimerTask任务*/
             MyTask task = new MyTask();
@@ -33,7 +34,8 @@ public class Run6 {
 
             System.out.println("当前时间 " + new Date());
 
-            timer.scheduleAtFixedRate(task, dateRef1, 2000);
+//            timer.scheduleAtFixedRate(task, dateRef1, 2000);//如果过时了，要补齐之前的所有任务，没有周期；完成后，才开始按照周期执行
+            timer.scheduleAtFixedRate(task, 0, 2000);
         }
     }
 }

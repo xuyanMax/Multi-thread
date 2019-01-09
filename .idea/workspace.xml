@@ -2,148 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6689c6c-ec82-486d-9c85-4756c675ea23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CallableAndFuture/CallableAndFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CallableAndFuture/CallableAndFuture_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CallableAndFuture/CallableAndFuture_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CallableAndFuture/CallableAndFuture_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CallableAndFuture/CallablleAndFuture_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4_conditionABC_sequence/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multitest/NameList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadPool/BigPlate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadPool/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadPool/ThreadPoolExecutorTest_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadPool/ThreadPoolExecutorTest_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadPool/ThreadPoolExecutorTest_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadPool/ThreadPoolExecutorTest_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadPool/ThreadPoolExecutorTest_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_DeadLock_Test/DeadThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_DeadLock_Test/DeadThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_inner_class/PublicClass$PrivateClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_inner_class/PublicClass$PrivateClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_inner_class/PublicClass$StaticClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_inner_class/PublicClass$StaticClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_inner_class/PublicClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_inner_class/PublicClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_t3_dirtyRead/PublicVar.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_t3_dirtyRead/PublicVar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_t3_dirtyRead/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_t3_dirtyRead/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_t3_dirtyRead/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_t3_dirtyRead/ThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_volatile_AtomicIntegerTest/AddCountThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_volatile_AtomicIntegerTest/AddCountThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_volatile_AtomicIntegerTest/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_volatile_AtomicIntegerTest/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_volatile_dead_loop/PrintString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_volatile_dead_loop/PrintString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_volatile_dead_loop/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_volatile_dead_loop/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_volatile_non_atomicity/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_volatile_non_atomicity/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch2_volatile_synchronized_alike/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch2_volatile_synchronized_alike/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_ThreadLocalTest/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_ThreadLocalTest/ThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_busy_waiting/MyThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_busy_waiting/MyThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_busy_waiting/MyThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_busy_waiting/MyThreadB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_another_test/RunFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_another_test/RunFirst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_long/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_long/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_long/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_long/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_sleep_2/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_sleep_2/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_sleep_2/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_sleep_2/ThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_sleep_2/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_sleep_2/ThreadB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_test2/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_test2/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_join_test2/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_join_test2/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_joint_test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_joint_test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_notifyHoldLock/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_notifyHoldLock/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_p_c_all_wait_2/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_p_c_all_wait_2/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_p_c_all_wait_2/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_p_c_all_wait_2/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_waitReleaseLock/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_waitReleaseLock/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_wait_add_subtract_if/Subtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_wait_add_subtract_if/Subtract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_wait_interrupted/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_wait_interrupted/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_wait_notify_insert_test/DBTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_wait_notify_insert_test/DBTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_wait_notify_size5/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_wait_notify_size5/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch3_wait_notify_size5/MyThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch3_wait_notify_size5/MyThreadB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_DeadLock_Test/DeadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_DeadLock_Test/DeadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_DeadLock_Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_DeadLock_Test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_inner_class/PublicClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_inner_class/PublicClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_inner_class/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_inner_class/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_t3_dirtyRead/PublicVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_t3_dirtyRead/PublicVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_t3_dirtyRead/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_t3_dirtyRead/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_t3_dirtyRead/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_t3_dirtyRead/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_AtomicIntegerTest/AddCountThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_AtomicIntegerTest/AddCountThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_AtomicIntegerTest/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_AtomicIntegerTest/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_AtomicInteger_unsafe/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_AtomicInteger_unsafe/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_AtomicInteger_unsafe/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_AtomicInteger_unsafe/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_dead_loop/PrintString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_dead_loop/PrintString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_dead_loop/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_dead_loop/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_dead_loop_solve_t10/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_dead_loop_solve_t10/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_non_atomicity/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_non_atomicity/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_non_atomicity/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_non_atomicity/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_synchronized_alike/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_synchronized_alike/MyThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_synchronized_alike/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_synchronized_alike/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_volatile_synchronized_alike/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_volatile_synchronized_alike/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_ThreadLocalTest/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_ThreadLocalTest/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_busy_waiting/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_busy_waiting/MyThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_busy_waiting/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_busy_waiting/MyThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_busy_waiting/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_busy_waiting/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_another_test/Run1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_another_test/Run1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_another_test/RunFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_another_test/RunFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_another_test/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_another_test/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_another_test/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_another_test/ThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_long/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_long/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_long/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_long/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_sleep_1/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_sleep_1/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_sleep_2/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_sleep_2/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_sleep_2/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_sleep_2/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_sleep_2/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_sleep_2/ThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_test2/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_test2/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_join_test2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_join_test2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_joint_test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_joint_test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_notifyHoldLock/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_notifyHoldLock/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_notifyHoldLock/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_notifyHoldLock/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_p_c_all_wait_2/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_p_c_all_wait_2/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_p_c_all_wait_2/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_p_c_all_wait_2/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_waitReleaseLock/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_waitReleaseLock/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_waitReleaseLock/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_waitReleaseLock/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Subtract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_interrupted/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_interrupted/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_interrupted/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_interrupted/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_notify_insert_test/DBTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_notify_insert_test/DBTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_notify_one/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_notify_one/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3_wait_notify_size5/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_wait_notify_size5/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_2/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_2/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_2/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_2/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_3/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_3/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_3/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_3/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_4/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_4/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_4/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_4/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReentrantLock/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReentrantLock/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReentrantLock/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReentrantLock/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReentrantLock_2/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReentrantLock_2/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_ReentrantLock_2/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_ReentrantLock_2/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_awaitUniterruptibly_1/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_awaitUniterruptibly_1/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_awaitUniterruptibly_2/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_awaitUniterruptibly_2/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_awaitUntil/Run2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_awaitUntil/Run2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_awaitUntil/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_awaitUntil/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_conditionABC/Run.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/ThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_getHoldCount/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_getHoldCount/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_getQueueLength/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_getQueueLength/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_getWaitQueueLength/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_getWaitQueueLength/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_hasQueuedThread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_hasQueuedThread/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_hasQueuedThread/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_hasQueuedThread/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_hasWaiters/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_hasWaiters/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_hasWaiters/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_hasWaiters/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_isFair/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_isFair/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_lockInterruptibly/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_lockInterruptibly/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_lockInterruptibly/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_lockInterruptibly/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_lock_fair_unfair/RunFair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_lock_fair_unfair/RunFair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_lock_fair_unfair/RunNotFair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_lock_fair_unfair/RunNotFair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_mustUseConditionsOK/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_mustUseConditionsOK/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_tryLockTest/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_tryLockTest/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_tryLock_param/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_tryLock_param/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_tryLock_param/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_tryLock_param/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4_useConditionWaitNotifyOK/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4_useConditionWaitNotifyOK/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_TimerMadeToDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_TimerMadeToDaemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_after.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_after.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_before.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_before.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2_delayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2_delayed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel_unexpected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel_unexpected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,91 +30,104 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock/MyService.java">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="586">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+              <folding>
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/MyService.java">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Timer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="283" column="16" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_tryLock_param/Run.java">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_tryLockTest/MyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="38">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotifyOK/MyService.java">
+        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_tryLockTest/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/MyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/ThreadA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch4_tryLock_param/MyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="389">
+              <caret line="36" column="99" selection-start-line="36" selection-start-column="99" selection-end-line="36" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -279,23 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ch3_notifyHoldLock/Service.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_notify_one/Service.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyThreadB.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyThreadA.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_notify_size5/MyList.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_notify_size5/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch3_waitReleaseLock/Test.java" />
-        <option value="$PROJECT_DIR$/src/ch4_condition_many_producers_consumers/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch4_conditionABC_sequence/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch4_getHoldCount/Service.java" />
-        <option value="$PROJECT_DIR$/src/ch4_getWaitQueueLength/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch4_hasQueuedThread/Service.java" />
-        <option value="$PROJECT_DIR$/src/ch4_hasQueuedThread/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch4_hasWaiters/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch4_getQueueLength/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch4_hasWaiters/Service.java" />
-        <option value="$PROJECT_DIR$/src/ch4_isFair/Service.java" />
         <option value="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Service.java" />
         <option value="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Run.java" />
         <option value="$PROJECT_DIR$/src/ch4_lock_fair_unfair/RunNotFair.java" />
@@ -330,6 +201,23 @@
         <option value="$PROJECT_DIR$/src/ch4_tryLock_param/MyService.java" />
         <option value="$PROJECT_DIR$/src/ch4_tryLockTest/Run.java" />
         <option value="$PROJECT_DIR$/src/ch4_useConditionWaitNotifyOK/MyService.java" />
+        <option value="$PROJECT_DIR$/src/ch4_useConditionWaitNotifyOK/Run.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_after.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_before.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_TimerMadeToDaemon.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2_delayed.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel_unexpected.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java" />
+        <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java" />
       </list>
     </option>
   </component>
@@ -717,6 +605,36 @@
               <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5_TimerTask_Test1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5_TimerTask_Test2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5_TimerTask_Test3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5_TimerTask_Test4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5_TimerTask_Test5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chp3_notify_before_wait" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -747,7 +665,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546973482098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547053191395" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -781,7 +699,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run (1)">
+  <component name="RunManager" selected="Application.Run6$MyTask">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -815,13 +733,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_tryLockTest.Run" />
+    <configuration name="Run1$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run1$MyTask" />
       <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_tryLockTest.*" />
+          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -829,13 +747,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_ReentrantLock.Run" />
+    <configuration name="Run3$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run3$MyTask" />
       <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_ReentrantLock.*" />
+          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -843,13 +761,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_ReentrantLock_2.Run" />
+    <configuration name="Run4$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run4$MyTask" />
       <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_ReentrantLock_2.*" />
+          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -857,13 +775,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_tryLock_param.Run" />
+    <configuration name="Run5$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run5$MyTask" />
       <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_tryLock_param.*" />
+          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -871,13 +789,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_ReadWriteLockBegin_1.Run" />
+    <configuration name="Run6$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run6$MyTask" />
       <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_ReadWriteLockBegin_1.*" />
+          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1008,19 +926,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Run" />
-      <item itemvalue="Application.Run (3)" />
-      <item itemvalue="Application.Run (4)" />
-      <item itemvalue="Application.Run (5)" />
-      <item itemvalue="Application.Run (1)" />
+      <item itemvalue="Application.Run1$MyTask" />
+      <item itemvalue="Application.Run5$MyTask" />
+      <item itemvalue="Application.Run6$MyTask" />
+      <item itemvalue="Application.Run3$MyTask" />
+      <item itemvalue="Application.Run4$MyTask" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Run (1)" />
-        <item itemvalue="Application.Run (5)" />
-        <item itemvalue="Application.Run (4)" />
-        <item itemvalue="Application.Run (3)" />
-        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.Run6$MyTask" />
+        <item itemvalue="Application.Run3$MyTask" />
+        <item itemvalue="Application.Run4$MyTask" />
+        <item itemvalue="Application.Run1$MyTask" />
+        <item itemvalue="Application.Run5$MyTask" />
       </list>
     </recent_temporary>
   </component>
@@ -1073,18 +991,20 @@
       <workItem from="1519873472420" duration="694000" />
       <workItem from="1521341455875" duration="17000" />
       <workItem from="1544878664285" duration="208000" />
-      <workItem from="1546883014490" duration="16318000" />
+      <workItem from="1546883014490" duration="16616000" />
+      <workItem from="1546975927388" duration="117000" />
+      <workItem from="1547042686679" duration="3831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137399000" />
+    <option name="totallyTimeSpent" value="141645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1096,13 +1016,13 @@
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49444443" visible="true" weight="0.3253012" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49444443" visible="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39759037" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50555557" side_tool="true" weight="0.3282532" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32289156" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -1190,146 +1110,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ch3_wait_notify_insert_test/DBTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_wait_notify_size5/MyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_waitReleaseLock/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_waitReleaseLock/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_waitReleaseLock/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_waitReleaseLock/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUniterruptibly_2/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUniterruptibly_1/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUniterruptibly_1/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUniterruptibly_1/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUniterruptibly_2/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUniterruptibly_2/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUntil/Run1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUntil/MyThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUntil/MyThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUntil/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_awaitUntil/Run2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_lockInterruptibly/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_lockInterruptibly/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_mustUseConditionsOK/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch4_mustUseConditionsOK/ThreadA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1486,50 +1266,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/MyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_tryLock_param/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="666">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch4_tryLock_param/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_tryLockTest/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1540,10 +1285,211 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4_tryLockTest/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotifyOK/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4_tryLock_param/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotifyOK/MyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="274">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="1080" column="18" selection-start-line="1080" selection-start-column="18" selection-end-line="1080" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_after.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_before.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_TimerMadeToDaemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2_delayed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_before_later.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel_unexpected.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="283" column="16" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="36" column="99" selection-start-line="36" selection-start-column="99" selection-end-line="36" selection-end-column="99" />
         </state>
       </provider>
     </entry>
