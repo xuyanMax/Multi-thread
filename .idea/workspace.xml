@@ -3,22 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f6689c6c-ec82-486d-9c85-4756c675ea23" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_TimerMadeToDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_TimerMadeToDaemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_after.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_after.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_before.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run1_before.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2_delayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test1/Run2_delayed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel_unexpected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_Timer_cancel_unexpected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_0/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_0/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_0/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_0/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_1/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_1/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_1/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_1/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_2/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_2/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_2_2/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_2_2/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_2_2/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_2_2/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_5/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_5/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_7/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_7/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_7_1/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_7_1/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_singleton_7_1/SaveAndRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_singleton_7_1/SaveAndRead.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,104 +25,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test2/Run_TimerTask_cancel.java">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_3/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-              <folding>
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_3/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_5/MyObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_5/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7/MyObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run1.java">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7_1/MyObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Timer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="283" column="16" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="324">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7_1/SaveAndRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="36" column="99" selection-start-line="36" selection-start-column="99" selection-end-line="36" selection-end-column="99" />
+            <state relative-caret-position="270">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch6_singleton_3/MyObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -167,17 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Service.java" />
-        <option value="$PROJECT_DIR$/src/ch4_isHeldByCurrentThread/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch4_lock_fair_unfair/RunNotFair.java" />
-        <option value="$PROJECT_DIR$/src/ch4_lock_fair_unfair/RunFair.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Add.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Subtract.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_add_subtract_if/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_interrupted/Run.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_interrupted/Service.java" />
-        <option value="$PROJECT_DIR$/src/ch3_wait_notify_insert_test/DBTools.java" />
-        <option value="$PROJECT_DIR$/src/ch3_waitReleaseLock/Service.java" />
         <option value="$PROJECT_DIR$/src/ch4_awaitUniterruptibly_2/Service.java" />
         <option value="$PROJECT_DIR$/src/ch4_awaitUniterruptibly_1/Run.java" />
         <option value="$PROJECT_DIR$/src/ch4_awaitUntil/Service.java" />
@@ -218,6 +189,17 @@
         <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run4.java" />
         <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run3.java" />
         <option value="$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_0/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_0/Run.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_1/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_1/Run.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_2/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_2_2/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_2_2/Run.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_5/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_7/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_7_1/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/ch6_singleton_7_1/SaveAndRead.java" />
       </list>
     </option>
   </component>
@@ -635,6 +617,60 @@
               <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_2_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_2_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_singleton_7_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chp3_notify_before_wait" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -665,7 +701,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547053191395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547141371783" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -699,7 +735,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run6$MyTask">
+  <component name="RunManager" selected="Application.Run (2)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -733,13 +769,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run1$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run1$MyTask" />
+    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_singleton_7.Run" />
       <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
+          <option name="PATTERN" value="ch6_singleton_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_singleton_8.Run" />
+      <module name="thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch6_singleton_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_singleton_1.Run" />
+      <module name="thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch6_singleton_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -749,34 +813,6 @@
     </configuration>
     <configuration name="Run3$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run3$MyTask" />
-      <module name="thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run4$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run4$MyTask" />
-      <module name="thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch5_TimerTask_Test5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run5$MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5_TimerTask_Test5.Run5$MyTask" />
       <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -926,19 +962,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Run1$MyTask" />
-      <item itemvalue="Application.Run5$MyTask" />
       <item itemvalue="Application.Run6$MyTask" />
       <item itemvalue="Application.Run3$MyTask" />
-      <item itemvalue="Application.Run4$MyTask" />
+      <item itemvalue="Application.Run" />
+      <item itemvalue="Application.Run (1)" />
+      <item itemvalue="Application.Run (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Run (2)" />
+        <item itemvalue="Application.Run (1)" />
+        <item itemvalue="Application.Run" />
         <item itemvalue="Application.Run6$MyTask" />
         <item itemvalue="Application.Run3$MyTask" />
-        <item itemvalue="Application.Run4$MyTask" />
-        <item itemvalue="Application.Run1$MyTask" />
-        <item itemvalue="Application.Run5$MyTask" />
       </list>
     </recent_temporary>
   </component>
@@ -993,18 +1029,18 @@
       <workItem from="1544878664285" duration="208000" />
       <workItem from="1546883014490" duration="16616000" />
       <workItem from="1546975927388" duration="117000" />
-      <workItem from="1547042686679" duration="3831000" />
+      <workItem from="1547042686679" duration="5158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141645000" />
+    <option name="totallyTimeSpent" value="142972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1016,7 +1052,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49444443" visible="true" weight="0.3253012" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49444443" visible="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39759037" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1110,188 +1146,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ch4_mustUseConditionsOK/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_mustUseConditionsOK/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_mustUseConditionsOK/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_1/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="36" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_2/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_2/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_3/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_3/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_3/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_4/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="18" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReadWriteLockBegin_4/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="12" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/ThreadAA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/ThreadBB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_ReentrantLock_2/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_tryLock_param/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_tryLockTest/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_tryLockTest/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch4_useConditionWaitNotify/MyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1431,13 +1285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test3/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1455,13 +1302,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1488,8 +1328,204 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="36" column="99" selection-start-line="36" selection-start-column="99" selection-end-line="36" selection-end-column="99" />
+        <state relative-caret-position="219">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test5/Run5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="22" column="22" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_0/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_0/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_0/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch5_TimerTask_Test4/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4_conditionABC_sequence/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_1/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_1/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_1/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2_1/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2_1/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2_1/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2_2/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2_2/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_2_2/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_3/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_3/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_3/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_5/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_5/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7_1/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_singleton_7_1/SaveAndRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>

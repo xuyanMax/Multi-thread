@@ -6,12 +6,14 @@ package ch6_singleton_1;
 public class MyObject {
 
     private static MyObject myObject;
-    private MyObject(){};
+
+    private MyObject() {
+    }
 
     public static MyObject getInstance() {
 
-    /*延迟加载*/
-    if (myObject == null)
+        /*延迟加载*/
+        if (myObject == null)
             myObject = new MyObject();
         return myObject;
     }
