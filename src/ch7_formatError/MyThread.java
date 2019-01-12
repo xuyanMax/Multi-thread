@@ -18,12 +18,12 @@ public class MyThread extends Thread {
 
     @Override
     public void run() {
-        try{
+        try {
             Date dateRef = simpleDateFormat.parse(dateString);
             String newDateString = simpleDateFormat.format(dateRef).toString();
             if (!newDateString.equals(dateString)) {
-                System.out.println("ThreadName="+this.getName() +
-                        "报错了 日期字符串："+dateString + " 转换成的日期是"+newDateString);
+                System.out.println("ThreadName=" + this.getName() +
+                        "报错了 日期字符串：" + dateString + " 转换成的日期是" + newDateString);
             }
 
         } catch (ParseException e) {

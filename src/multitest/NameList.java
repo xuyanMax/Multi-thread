@@ -13,6 +13,8 @@ public class NameList {
 
      E: The code may run with output “A B C '|' A B C A B C “, then exit.
      G: The code may run with output “A B C A '|' A B C A B C “, then exit.
+
+     加synchronized解决线程不安全问题
 */
     private List names = new ArrayList();
 

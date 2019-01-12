@@ -11,7 +11,7 @@ public class HasSelfPrivateNum {
     //添加synchronized 可实现"线程同步"
     synchronized public void addI(String username) {
 
-        try{
+        try {
             if (username.equals("a")) {
                 num = 100;
                 System.out.println("a set over!");
@@ -21,8 +21,7 @@ public class HasSelfPrivateNum {
                 System.out.println("b set over!");
             }
             System.out.println(username + " num=" + num);
-        }
-        catch(InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }

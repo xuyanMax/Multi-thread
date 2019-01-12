@@ -5,7 +5,7 @@ package countPriority;
  */
 public class Run {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 // 看哪个线程运行的快
 //        System.out.println(Integer.MAX_VALUE); // 2^32 - 1
 //        System.out.println(Long.MAX_VALUE); // 2^64 - 1
