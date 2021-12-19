@@ -25,8 +25,6 @@ public class Run {
             e.printStackTrace();
         }
         System.out.println("end!");
-
-
     }
 
 }

@@ -8,7 +8,5 @@ public class Run {
 		t1.setName("A");
 		//run()方法是自动调用的 线程为Thread-0
 		t1.start();
-
 	}
-
 }

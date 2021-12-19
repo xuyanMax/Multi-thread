@@ -7,8 +7,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * Created by xu on 2017/6/19.
  */
 public class Run {
-    /*使用Condition对象可以对线程执行的业务进行"排序规划"*/
 
+    /*使用Condition对象可以对线程执行的业务进行"排序规划"*/
     volatile private static int nextPrintWho = 1;
 
     private static ReentrantLock lock = new ReentrantLock();

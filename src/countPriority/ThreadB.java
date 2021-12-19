@@ -10,7 +10,7 @@ public class ThreadB extends Thread{
     }
     @Override
     public void run() {
-        while(true)
+        while(!this.isInterrupted())
             count++;
     }
 }

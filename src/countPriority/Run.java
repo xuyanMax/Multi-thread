@@ -21,11 +21,12 @@ public class Run {
 
             Thread.sleep(5000);
 
-            a.stop();
-            b.stop();
+            a.interrupt();
+            b.interrupt();
             System.out.println("a=" + a.getCount());
             System.out.println("b=" + b.getCount());
         } catch (InterruptedException e) {
+            System.out.println("aaa");
             e.printStackTrace();
         }
 

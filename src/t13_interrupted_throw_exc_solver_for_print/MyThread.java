@@ -15,7 +15,6 @@ public class MyThread extends Thread {
                 if (this.interrupted()) {
                     System.out.println("已经是停止状态了！我要退出了！");
                     throw new InterruptedException();
-
                 }
                 System.out.println("i=" + (i + 1));
             }

@@ -17,7 +17,7 @@ public class Run {
             Thread.sleep(5000);
             System.out.println("守护线程随着main线程的结束而结束");
             Thread.sleep(1000);
-            System.out.println("守护线程随着main线程的休眠二再次工作，待main线程休眠结束，守护线程结束");
+            System.out.println("守护线程随着main线程的休眠而再次工作，待main线程休眠结束，守护线程结束");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

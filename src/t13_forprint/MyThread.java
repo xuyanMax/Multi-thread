@@ -1,4 +1,4 @@
-package t13_forprint;
+ package t13_forprint;
 
 public class MyThread extends Thread {
     @Override
@@ -9,7 +9,6 @@ public class MyThread extends Thread {
          * 结果
          * 会执行
          */
-
         for (int i = 0; i < 500000; i++) {
             if (this.interrupted()) {
                 System.out.println("已经是停止状态了！我要推出了！");

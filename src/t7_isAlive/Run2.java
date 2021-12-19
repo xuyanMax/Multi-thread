@@ -25,8 +25,6 @@ public class Run2 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
     }
 
 }

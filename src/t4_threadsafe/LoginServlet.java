@@ -6,7 +6,7 @@ public class LoginServlet {
     private static String usernameRef;
     private static String passwordRef;
 
-    //		synchronized
+    //		synchronizedsame
     public static void doPost(String username, String password) {
         try {
             //测试

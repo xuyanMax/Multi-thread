@@ -10,7 +10,14 @@ public class ThreadA extends Thread{
     }
     @Override
     public void run() {
-        while(true)
+
+        while(!this.isInterrupted())
             count++;
+        try {
+            throw new InterruptedException();
+        } catch (InterruptedException e) {
+            System.err.println("Exception In Thread");
+            e.printStackTrace();
+        }
     }
 }
