@@ -6,7 +6,7 @@ public class MyThread extends Thread {
         super.run();
         /*
          * 在线程interrupted状态下睡眠线程，效果是：
-         * 直接进入catch语句，并且清楚停止状态值，使之变为false
+         * 直接进入catch语句，并且清除停止状态值，使之变为false
          */
         try {
             for (int i = 0; i < 100000; i++) {

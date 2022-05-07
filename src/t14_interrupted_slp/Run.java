@@ -26,10 +26,6 @@ public class Run {
         MyThread thread = new MyThread();
         thread.start(); // 2、myThread 线程睡眠，
         thread.interrupt(); // 1、main线程使--myThread线程中断
-
         System.out.println("main end!"); //1、
-
-
     }
-
 }

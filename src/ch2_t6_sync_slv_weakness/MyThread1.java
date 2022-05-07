@@ -14,6 +14,6 @@ public class MyThread1 extends Thread{
         super.run();
         CommonUtils.beginTime1 = System.currentTimeMillis();
         task.doLongTimeTask();
-        CommonUtils.endTimt1 = System.currentTimeMillis();
+        CommonUtils.endTime1 = System.currentTimeMillis();
     }
 }

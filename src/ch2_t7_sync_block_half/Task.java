@@ -25,6 +25,5 @@ public class Task {
                System.out.println("Synchronized threadName="+Thread.currentThread().getName() + ", i="+
                        (i+1));
        }
-
     }
 }
